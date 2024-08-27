@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Champions Lol</title>
+</head>
+
+<body>
+    <div id="app">
+        <p class="titulo">Champions Lol</p>
+        <div class="botoes">
+            <button @click="pegar">Pegar</button>
+            <button @click="atualizar">Atualizar</button>
+            <button @click="deletar">Deletar</button>
+            <button @click="adicionar">Adicionar</button>
+        </div>
+        <div>
+            <h2>Adicionar Novo Campeão:</h2>
+            <form @submit.prevent="adicionar">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" v-model="novoChamp.nome"><br><br>
+                <label for="classe">Classe:</label>
+                <input type="text" id="classe" v-model="novoChamp.classe"><br><br>
+                <label for="poder">Poder:</label>
+                <input type="text" id="poder" v-model="novoChamp.poder"><br><br>
+            </form>
+        </div>
+        <div v-if="champs.length">
+            <h2>Lista de Campeões:</h2>
+            <ul>
+                <li v-for="champ in champs" :key="champ.id">
+                    ID: {{ champ.id }}, Nome: {{ champ.nome }}, Classe: {{ champ.classe }}, Poder: {{ champ.poder }}
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        const app = new Vue({
+            el: "#app",
+            data: {
+                champs: [],
+                novoChamp: {
+                    nome: '',
+                    classe: '',
+                    poder: ''
+                }
+            },
+            methods: {
+                pegar() {
+                    fetch('http://localhost:8080/champs')
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Network response was not ok');
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            this.champs = data;
+                        })
+                        .catch(error => console.error('Erro:', error));
+                },
+                adicionar() {
+                    const novoChamp = { id: Date.now(), ...this.novoChamp };
+                    fetch('http://localhost:8080/champs', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(novoChamp)
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            this.champs.push(data);
+                            this.novoChamp = { nome: '', classe: '', poder: '' };
+                        })
+                        .catch(error => console.error('Erro:', error));
+                },
+                atualizar() {
+                    const champAtualizado = this.champs[0];
+                    if (champAtualizado) {
+                        champAtualizado.nome = "Nome Atualizado";
+                        fetch(`http://localhost:8080/champs/${champAtualizado.id}`, {
+                            method: 'PUT',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(champAtualizado)
+                        })
+                            .then(response => response.json())
+                            .then(data => {
+                                const index = this.champs.findIndex(champ => champ.id === data.id);
+                                this.$set(this.champs, index, data);
+                            })
+                            .catch(error => console.error('Erro:', error));
+                    }
+                },
+                deletar() {
+                    const champId = this.champs.length ? this.champs[0].id : null;
+                    if (champId) {
+                        fetch(`http://localhost:8080/champs/${champId}`, {
+                            method: 'DELETE'
+                        })
+                            .then(() => {
+                                this.champs = this.champs.filter(champ => champ.id !== champId);
+                            })
+                            .catch(error => console.error('Erro:', error));
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
