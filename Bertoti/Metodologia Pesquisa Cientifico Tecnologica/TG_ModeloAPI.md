@@ -104,8 +104,8 @@
 <details>
   <summary>Detalhes</summary>
   
-  <img src="![alt text](image-1.png)">
-</details>
+  <img src="https://github.com/user-attachments/assets/f634dbf9-8cfa-4bab-bbc6-3fc7aee9e237">
+</details> 
 
 ### 3. **Desenvolvimento da tela de criar, editar e visualizar hash**
    - Contribuí ativamente com o desenvolvimento da tela de criar, editar e visualizar hash, onde nelas temos as opções de ver o nome do item, se é ativo ou não, selecionar o seu tipo, se ele terá algum valor padrão e uma descrição caso necessário.
