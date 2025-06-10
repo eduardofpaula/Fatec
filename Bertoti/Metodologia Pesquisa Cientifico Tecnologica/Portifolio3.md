@@ -1,5 +1,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=transparent&height=100&color=gradient&text=Portifólio%20API&fontSize=50&fontColor=1A4870">
 
+<h1 align="center">3° Semestre</h1>
+
 <p align="justify">
   Olá, meu nome é Eduardo Farias, tenho 24 anos de idade, moro em Jacareí - São Paulo, Brasil.<br>
   Estou cursando Tecnologia em Banco de Dados na Fatec-SJC
@@ -13,7 +15,6 @@
 ## Meus Principais Conhecimentos:
 
 <div class="skills" align="left">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
