@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=transparent&height=100&color=gradient&text=Portifólio%20API&fontSize=50&fontColor=1A4870">
 
-<h1 align="center">1° Semestre</h1>
+<h1 align="center">4° Semestre</h1>
 
 <p align="justify">
   Olá, meu nome é Eduardo Farias, tenho 24 anos de idade, moro em Jacareí - São Paulo, Brasil.<br>
@@ -30,13 +30,13 @@
 
 <br>
 
-<div align=center><h1>DataFlow</h1></div>
+<div align=center><h1>Geotrack</h1></div>
 
-<h4> 1° Semestre • <a href="https://github.com/iNineBD/Aval360-1Sem2023">Repositório Github</a></h4>
+<h4> 4° Semestre • <a href="https://github.com/iNineBD/GeoTrack-4Sem2024Main">Repositório Github</a></h4>
 
-<p align="justify"> Empresa Parceira • Cliente Interno Fatec-SJC
+<p align="justify"> Empresa Parceira • <a href="https://www.linkedin.com/company/ito1/posts/?feedView=all">ITO1</a></p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/127355284/228393600-18d89b72-0631-4e04-be23-4f14fd5bc29c.png" widht="20%"></img>
+<p align="center"><img src="image.png" widht="20%"></img>
 
 <p align="justify">Desenvolvimento de uma aplicação tecnológica voltada para a realização de avaliações 360°, com foco em promover uma análise democratizada de desempenho e comportamento dentro de equipes e organizações.
 

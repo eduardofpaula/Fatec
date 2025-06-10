@@ -118,7 +118,9 @@ O sistema permite o controle de prazos, acompanhamento de etapas, registro de or
 
 <details>
   <summary>Detalhes</summary>
+  
   - Funcionalidade Transporte de Notas
+  
   <div align="center">
     <video width="600" controls>
       <source src="https://github.com/iNineBD/SGTG-2Sem2023/assets/127275110/fbfbe219-08af-4465-a625-c5697b584588" type="video/mp4">
@@ -133,6 +135,7 @@ O sistema permite o controle de prazos, acompanhamento de etapas, registro de or
 
 <details>
   <summary>Detalhes</summary>
+
   - Funcionalidade Gerenciamento de Alunos
   
   <div align="center">
@@ -144,51 +147,10 @@ O sistema permite o controle de prazos, acompanhamento de etapas, registro de or
   
 </details>
 
-### 4. **Desenvolvimento dos DashBoards de Usuarios e Arquivos**
-
-- Contribui ativamente com o desenvolvimento dos dashboards de usuários e organizações, permitindo uma visualização quantitativa de usuarios por organização e quantidade de arquivos por etapa filtrando-os por organização.
-
-<details>
-  <summary>Detalhes Dashboard de Usuarios</summary>
-
-  <img src="https://github.com/user-attachments/assets/6f349b99-46ab-43c4-921b-71666254d831">
-</details>
-
-<details>
-  <summary>Detalhes Dashboard de Arquivos</summary>
-
-  <img src="https://github.com/user-attachments/assets/ff4191a4-a203-4cb1-ad9f-15faf561f702">
-</details>
-
-### 5. **Desenvolvimento da Tela de Navegação e Download Yamls**
-
-- Contribuí ativamente com o desenvolvimento da tela de navegação, onde o usuário pode navegar entre as etapas do processo de configuração de dados que estão disponíveis para ele.
-- Contribuí ativamente com o desenvolvimento da funcionalidade de download yamls, onde o usuário pode fazer o download dos arquivos yamls que ele configurou.
-
-<details>
-  <summary>Detalhes Tela de Navegação</summary>
-
-  <img src="https://github.com/user-attachments/assets/de2b025b-c6dd-48a7-932f-828779ebeb70">
-</details>
-
-### 6. **Experiencia como Scrum Master**
-
-- Contribuí ativamente como Scrum Master, auxiliando a equipe a manter o foco nas entregas, garantindo que as reuniões diárias fossem realizadas e que os prazos fossem cumpridos.
-- Contribuí ativamente com a organização do projeto, mantendo o ClickUp atualizado e organizado, garantindo que todos os membros da equipe estivessem cientes das tarefas a serem realizadas.
-
-<details>
-  <summary>Detalhes Sobre as entregas nas Sprints</summary>
-    <a href="https://sharing.clickup.com/9014018291/l/h/6-901402031898-1/593ce5b9097067b">Sprint 1</a>
-    <br>
-    <a href="https://sharing.clickup.com/9014018291/l/h/6-901402031922-1/7151a40ba00853d">Sprint 2</a>
-    <br>
-    <a href="https://sharing.clickup.com/9014018291/l/h/6-901402031924-1/99b04f0e3ba7763">Sprint 3</a>
-    <br>
-    <a href="https://sharing.clickup.com/9014018291/l/h/6-901402031926-1/b8e3065e7467035">Sprint 4</a>
-</details>
-
 <h2>Conhecimentos Obtidos</h2>
-<p align="justify">Durante o desenvolvimento dessa aplicação, a experiência me proporcionou uma compreensão abrangente do ciclo de vida do desenvolvimento de software, desde a gestão ágil do projeto até a implementação eficaz no frontend, o trabalho em equipe e todo o conhecimento que adquiri sobre experiência de usuário para ter telas bem intuitivas e fáceis de usar e entender.</p>
+<p align="justify">Durante o desenvolvimento deste projeto, aprimorei meus conhecimentos em várias áreas essenciais da tecnologia. Trabalhei com Java e JavaFX para criar a interface gráfica da aplicação, utilizando o Scene Builder para facilitar a montagem das telas. Aprendi a integrar a aplicação com o banco de dados MySQL, garantindo o armazenamento e a manipulação eficiente das informações.
+
+Além disso, usei o Figma para prototipar as telas e planejar a experiência do usuário antes da implementação.</p>
 
 <h3>Hard Skills</h3>
   <table>
@@ -197,36 +159,32 @@ O sistema permite o controle de prazos, acompanhamento de etapas, registro de or
       <th width="300px">Classificação</th>
     </tr>
     <tr>
-      <td>HTML5</td>
-      <td align="center">★★★★★</td>
-    </tr>
-    <tr>
-      <td>CSS3</td>
-      <td align="center">★★★★☆</td>
-    </tr>
-    <tr>
-      <td>JavaScript</td>
-      <td align="center">★★★★☆</td>
-    </tr>
-    <tr>
-      <td>Vue.js</td>
+      <td>Java</td>
       <td align="center">★★★☆☆</td>
     </tr>
     <tr>
-      <td>ClickUp</td>
+      <td>JavaFX</td>
+      <td align="center">★★☆☆☆</td>
+    </tr>
+    <tr>
+      <td>Eclipse</td>
       <td align="center">★★★★☆</td>
+    </tr>
+    <tr>
+      <td>MySql</td>
+      <td align="center">★★★★★</td>
+    </tr>
+    <tr>
+      <td>ClickUp</td>
+      <td align="center">★★☆☆☆</td>
     </tr>
     <tr>
       <td>Figma</td>
       <td align="center">★★★☆☆</td>
     </tr>
     <tr>
-      <td>Visual Studio Code</td>
-      <td align="center">★★☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Postman</td>
-      <td align="center">★★☆☆☆</td>
+      <td>Scene Builder</td>
+      <td align="center">★☆☆☆☆</td>
     </tr>
   </table>
 
