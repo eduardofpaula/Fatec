@@ -120,7 +120,10 @@ O sistema permite o controle de prazos, acompanhamento de etapas, registro de or
   <summary>Detalhes</summary>
   - Funcionalidade Transporte de Notas
   <div align="center">
-    https://github.com/iNineBD/SGTG-2Sem2023/assets/127275110/fbfbe219-08af-4465-a625-c5697b584588
+    <video width="600" controls>
+      <source src="https://github.com/iNineBD/SGTG-2Sem2023/assets/127275110/fbfbe219-08af-4465-a625-c5697b584588" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
   </div>
 </details>
 
@@ -133,8 +136,12 @@ O sistema permite o controle de prazos, acompanhamento de etapas, registro de or
   - Funcionalidade Gerenciamento de Alunos
   
   <div align="center">
-    https://github.com/iNineBD/SGTG-2Sem2023/assets/117841950/81ee4c8f-2b99-4b77-98cf-9f162d69b390
+    <video width="600" controls>
+      <source src="https://github.com/iNineBD/SGTG-2Sem2023/assets/117841950/81ee4c8f-2b99-4b77-98cf-9f162d69b390" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
   </div>
+  
 </details>
 
 ### 4. **Desenvolvimento dos DashBoards de Usuarios e Arquivos**
